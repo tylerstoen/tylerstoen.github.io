@@ -1,11 +1,12 @@
 ---
 title: "Tyler Stoen"
+image: NationalTeamPhoto.jpg
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 23em
+  links:
+    - text: Email
+      href: mailto:tyler.stoen@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```

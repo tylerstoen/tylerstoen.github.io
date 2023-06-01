@@ -4,13 +4,27 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "My academic interests include statistics and data science, specifically programming in R and Python.\nMy other interests include swimming, surfing, music and cooking. I am a big fan of both the Golden Stae Warriors and San Francisco 49ers and enjoy watching both sports with family and friends."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tyler Stoen",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hello! My name is Tyler Stoen and I am a second year statistics major at Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub"
+  },
+  {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Here is a link to my Resume"
+  },
+  {
+    "objectID": "about.html#involvement",
+    "href": "about.html#involvement",
+    "title": "About",
+    "section": "Involvement",
+    "text": "Involvement\nI currently involved in the swim club here at Cal Poly."
   }
 ]

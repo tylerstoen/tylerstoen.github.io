@@ -2,11 +2,15 @@
 title: "Tyler Stoen"
 image: NationalTeamPhoto.jpg
 about: 
-  template: trestles
-  image-shape: round
-  image-width: 23em
+  template: jolla
+  image-width: 20em
   links:
     - text: Email
       href: mailto:tyler.stoen@gmail.com
+    - text: GitHub
+      href: https://github.com/tylerstoen
+  id: ppc
 ---
-
+:::{#ppc}
+Hello! My name is Tyler Stoen and I am a second year statistics major at Cal Poly San Luis Obispo.
+:::

@@ -5,7 +5,7 @@ title: "About"
 ## Interests
 My academic interests include statistics and data science, specifically programming in R and Python.
 
-My other interests include swimming, surfing, music and cooking. I am a big fan of both the Golden Stae Warriors and San Francisco 49ers and enjoy watching both sports with family and friends.
+My other interests include swimming, surfing, music and cooking. I am a big fan of both the Golden State Warriors and San Francisco 49ers and enjoy watching both sports with family and friends.
 
 ## Involvement
 I currently involved in the swim club here at Cal Poly.

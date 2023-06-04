@@ -1,0 +1,9 @@
+---
+title: "Projects"
+---
+
+## [Copy the Masters](copythemasters.html){.external target="_blank"}
+Recreation of a graphic made by fivethirtyeight.com illustrating that both chambers of congress are older than ever.
+
+## [Effect of Median Age on Total Health Spending](finalproject.html) {.external target="_blank"}
+In this assignment, I worked with fellow classmates to determine if median age was associated with total health spending in countries across the world.

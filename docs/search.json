@@ -26,5 +26,19 @@
     "title": "About",
     "section": "Involvement",
     "text": "Involvement\nI currently involved in the swim club here at Cal Poly."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Recreation of a graphic made by fivethirtyeight.com illustrating that both chambers of congress are older than ever."
+  },
+  {
+    "objectID": "projects.html#effect-of-median-age-on-total-health-spending",
+    "href": "projects.html#effect-of-median-age-on-total-health-spending",
+    "title": "Projects",
+    "section": "Effect of Median Age on Total Health Spending",
+    "text": "Effect of Median Age on Total Health Spending\nIn this assignment, I worked with fellow classmates to determine if median age was associated with total health spending in countries across the world."
   }
 ]

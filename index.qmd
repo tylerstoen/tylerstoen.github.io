@@ -11,6 +11,7 @@ about:
       href: https://github.com/tylerstoen
   id: ppc
 ---
-:::{#ppc}
+
+::: {#ppc}
 Hello! My name is Tyler Stoen and I am a second year statistics major at Cal Poly San Luis Obispo.
 :::

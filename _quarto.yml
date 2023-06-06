@@ -9,9 +9,8 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
-      - href: RusselResume.pdf
+      - href: Resume.qmd
         text: Resume
-
 format:
   html:
     theme: cosmo

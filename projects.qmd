@@ -6,16 +6,16 @@ title: "Projects"
 
 Recreation of a graphic made by fivethirtyeight.com illustrating that both chambers of congress are older than ever.
 
-![](copythemasters.html){{width=100% height="400"}}
+![](copythemasters.html){width=100% height="400"}
 
 ## Effect of Median Age on Total Health Spending
 
 In this assignment, I worked with fellow classmates to determine if median age was associated with total health spending in countries across the world.
 
-![](finalproject.html){{width=100% height="400"}}
+![](finalproject.html){width=100% height="400"}
 
 ## Reaction Time Project
 
 A study designed to test if submerging your hand in different temperatures of water has an effect on your reaction time.
 
-![](Cash_Hartnett_Spiess_Stoen_FinalReport.pdf){{width=100% height="400"}}
+![](Cash_Hartnett_Spiess_Stoen_FinalReport.pdf){width=100% height="400"}

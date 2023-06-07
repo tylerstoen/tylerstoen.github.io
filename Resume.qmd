@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 format: html
-resources: RusselResume.pdf
+resources: TylerStoen.pdf
 ---
 
 <embed src="RusselResume.pdf" type="application/pdf" style="width:100%;height:100vh;"/>

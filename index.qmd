@@ -1,6 +1,6 @@
 ---
 title: "Tyler Stoen"
-image: NationalTeamPhoto.jpg
+image: SeniorPortrait.jpg
 about: 
   template: jolla
   image-width: 20em
@@ -13,5 +13,5 @@ about:
 ---
 
 ::: {#ppc}
-Hello! My name is Tyler Stoen and I am a second year statistics major at Cal Poly San Luis Obispo.
+Hello! My name is Tyler Stoen and I'm a MS candidate in statistics at Cal Poly San Luis Obispo.
 :::

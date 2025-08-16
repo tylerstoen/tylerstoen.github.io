@@ -3,3 +3,5 @@ title: "Resume"
 format: html
 resources: TylerStoen.pdf
 ---
+
+<embed src="TylerStoen.pdf" type="application/pdf" style="width:100%;height:100vh;"/>

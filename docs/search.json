@@ -18,7 +18,7 @@
     "href": "Resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Here is a link to my Resume"
+    "text": "&lt;div style=“display:flex; justify-content:center; align-items:center; height:100vh;”&gt;\n&lt;iframe src=“files/resume.pdf”\nstyle=“width:80%; height:90%; border:none;”\nframeborder=“0”&gt;\n&lt;/iframe&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "about.html#involvement",

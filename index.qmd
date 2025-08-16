@@ -3,7 +3,6 @@ title: "Tyler Stoen"
 image: SeniorPortrait.jpg
 about: 
   template: jolla
-  image-width: 20em
   links:
     - text: Email
       href: mailto:tyler.stoen@gmail.com

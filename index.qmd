@@ -8,6 +8,8 @@ about:
       href: mailto:tyler.stoen@gmail.com
     - text: GitHub
       href: https://github.com/tylerstoen
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/tyler-stoen/
   id: ppc
 ---
 

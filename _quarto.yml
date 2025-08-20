@@ -10,7 +10,7 @@ website:
       - about.qmd
       - projects.qmd
       - href: Resume.qmd
-        text: Resume
+    foreground: "primary"
 format:
   html:
     theme: cosmo

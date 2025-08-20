@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Tyler Stoen",
     "section": "",
-    "text": "Hello! My name is Tyler Stoen and I’m a MS candidate in statistics at Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub"
+    "text": "Hello! My name is Tyler Stoen and I’m a MS candidate in statistics at Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub\n  \n  \n     LinkedIn"
   },
   {
     "objectID": "Resume.html",
@@ -81,7 +81,7 @@
     "href": "projects.html#nba-genral-manager-hypothetical",
     "title": "Projects",
     "section": "NBA Genral Manager Hypothetical",
-    "text": "NBA Genral Manager Hypothetical"
+    "text": "NBA Genral Manager Hypothetical\nProject where I used Scala/Spark to analyze NBA data and make hypothetical off-season roster decisions in hindsight using data available on all NBA players as if I were a general manager. I looked to make informed decisions on what players would be most beneficial to the team by analyzing team weaknesses and potential holes going into the next season."
   },
   {
     "objectID": "projects.html#breast-cancer-detection",

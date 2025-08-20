@@ -1,21 +1,35 @@
 ---
 title: "Projects"
+resources: "*.pdf"
 ---
 
-## Copy the Masters
+## [Microorganism Diversity in Vineyard Soil](451_midproject_report.pdf)
+
+My senior capstone project at Cal Poly SLO working as a client for Dr. Katie Watts under the supervision on Dr. Kelly Bodwin and Dr. Alex Dekhtyar. In this project, I worked to find drivers in microbial diversity in local vineyard soil by developing a new identification procedure that utilizes differential correlation.
+
+
+## [NBA Genral Manager Hypothetical](NBA_Project.pdf)
+
+Project where I used Scala/Spark to analyze NBA data and make hypothetical off-season roster decisions in hindsight using data available on all NBA players as if I were a general manager. I looked to make informed decisions on what players would be most beneficial to the team by analyzing team weaknesses and potential holes going into the next season.
+
+
+## [Breast Cancer Detection]()
+
+
+## [Image Classification]()
+
+
+## [Copy the Masters](copythemasters.html)
 
 Recreation of a graphic made by fivethirtyeight.com illustrating that both chambers of congress are older than ever.
 
-![](copythemasters.html){width="100%" height="400"}
 
-## Effect of Median Age on Total Health Spending
+## [Effect of Median Age on Total Health Spending](finalproject.html)
 
 In this assignment, I worked with fellow classmates to determine if median age was associated with total health spending in countries across the world.
 
-![](finalproject.html){width="100%" height="400"}
 
-## Reaction Time Project
+## [Reaction Time Project](Cash_Hartnett_Spiess_Stoen_FinalReport.pdf)
 
 A study designed to test if submerging your hand in different temperatures of water has an effect on your reaction time.
 
-![](Cash_Hartnett_Spiess_Stoen_FinalReport.pdf){width="100%" height="400"}

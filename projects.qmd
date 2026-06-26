@@ -3,33 +3,54 @@ title: "Projects"
 resources: "*.pdf"
 ---
 
-## [Microorganism Diversity in Vineyard Soil](451_midproject_report.pdf)
+## [Discovering Differentially Correlated Sets Across Multiple Treatments](https://digitalcommons.calpoly.edu/theses/3312/)
+*Statistical Methodology · Unsupervised Methods · R*
 
-My senior capstone project at Cal Poly SLO working as a client for Dr. Katie Watts under the supervision on Dr. Kelly Bodwin and Dr. Alex Dekhtyar. In this project, I worked to find drivers in microbial diversity in local vineyard soil by developing a new identification procedure that utilizes differential correlation.
+My master's thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons.
+
+## [Microorganism Diversity in Vineyard Soil](projects/451_midproject_report.pdf)
+*Unsupervised Methods · R*
+
+My capstone project, working for client Dr. Katie Watts of the Cal Poly Chemistry department under the supervision of Dr. Kelly Bodwin and Dr. Alex Dekhtyar. I analyzed local vineyard soil to identify drivers of microbial diversity using differential correlation.
+
+## [NBA General Manager Hypothetical](projects/NBA_Project.pdf)
+*Scala · Spark*
+
+Using Scala and Spark, I analyzed NBA player data to make hypothetical
+off-season roster decisions in hindsight, as if I were a general manager. By
+examining team weaknesses and roster gaps heading into the next season, I
+evaluated which players would add the most value.
+
+## [Plastic Waste](https://019dec9c-e690-fe3a-ea52-db2d894b1713.share.connect.posit.cloud/)
+*R · Dashboard · Package Development*
+
+An end-to-end analysis of global plastic waste. The report pairs with an
+interactive [dashboard](https://019e34c7-e133-1234-79c1-e5ca7e2437b2.share.connect.posit.cloud/) and an [R package](https://github.com/tylerstoen/wasted) bundling the data and reusable analysis functions.
 
 
-## [NBA Genral Manager Hypothetical](NBA_Project.pdf)
+## [GeoLife Trajectories](projects/mp1.html)
+*R · MCMC · K-means*
 
-Project where I used Scala/Spark to analyze NBA data and make hypothetical off-season roster decisions in hindsight using data available on all NBA players as if I were a general manager. I looked to make informed decisions on what players would be most beneficial to the team by analyzing team weaknesses and potential holes going into the next season.
-
-
-## [Breast Cancer Detection]()
+Modeled GPS movement data as a Markov chain over spatial regions to determine long-run behavior of individuals in the region of interest. Instead of a typical grid split to define transitions as north, south, east and west, the region was split using k-means on uniquely visited locations and assigning points to the nearest centroid with Voronoi polygons.
 
 
-## [Image Classification]()
+## [Cockroach Neurons](projects/cockroach_neurons-2.html)
+*R · Poisson Processes*
+
+Modeled neural spike trains as non-homogeneous Poisson processes to test whether citronellal odor puffs change the firing rate of cockroach antennal lobe
+neurons.
 
 
-## [Copy the Masters](copythemasters.html)
+## [Breast Cancer Detection](https://github.com/tylerstoen/breast-cancer-classification)
+*Python · sklearn*
 
-Recreation of a graphic made by fivethirtyeight.com illustrating that both chambers of congress are older than ever.
+Classification of Kaggle breast cancer data as malignant or benign using various classification methods including K-Nearest Neighbors, Support Vector Machine and Random Forest.
+
+## [Image Classification](projects/imageclassification.pdf)
+*Python · sklearn*
 
 
-## [Effect of Median Age on Total Health Spending](finalproject.html)
+## [Copy the Masters](projects/copythemasters.html)
+*R · ggplot2 · Visualization Tools*
 
-In this assignment, I worked with fellow classmates to determine if median age was associated with total health spending in countries across the world.
-
-
-## [Reaction Time Project](Cash_Hartnett_Spiess_Stoen_FinalReport.pdf)
-
-A study designed to test if submerging your hand in different temperatures of water has an effect on your reaction time.
-
+A recreation of a FiveThirtyEight graphic using R and ggplot2.

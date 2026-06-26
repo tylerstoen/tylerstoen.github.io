@@ -14,5 +14,5 @@ about:
 ---
 
 ::: {#ppc}
-Hello! My name is Tyler Stoen and I'm a MS candidate in statistics at Cal Poly San Luis Obispo.
+Hello! My name is Tyler Stoen and I'm a recent MS Statistics graduate from Cal Poly San Luis Obispo.
 :::

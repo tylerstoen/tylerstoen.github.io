@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My academic interests include statistics and data science, specifically programming in R and Python.\nMy other interests include swimming, surfing, music and cooking. I am a big fan of both the Golden State Warriors and San Francisco 49ers and enjoy watching both sports with family and friends."
+    "text": "My professional expertise is in statistical models and machine learning, built on programming in R and Python. My recent work focuses on supervised and unsupervised methods, including classification and correlation analysis, with applications in biological areas like microbiome ecology and oncology.\nI came to statistics through sports. I was always the one thinking about the optimal way to play a game or the best lineup to field, and it became how I connected with people. That instinct for finding the optimal strategy and discovering the story through numbers is what motivates me in the field of statistics and data science today.\nOutside of work, I like to stay active, cook, follow Bay Area sports, and I’m always looking for new music."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tyler Stoen",
     "section": "",
-    "text": "Hello! My name is Tyler Stoen and I’m a MS candidate in statistics at Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub\n  \n  \n     LinkedIn"
+    "text": "Hello! My name is Tyler Stoen and I’m a recent MS Statistics graduate from Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub\n  \n  \n     LinkedIn"
   },
   {
     "objectID": "Resume.html",
@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "My senior capstone project at Cal Poly SLO working as a client for Dr. Katie Watts under the supervision on Dr. Kelly Bodwin and Dr. Alex Dekhtyar. In this project, I worked to find drivers in microbial diversity in local vineyard soil by developing a new identification procedure that utilizes differential correlation."
+    "text": "Statistical Methodology · Unsupervised Methods · R\nMy master’s thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons."
   },
   {
     "objectID": "projects.html#effect-of-median-age-on-total-health-spending",
@@ -67,14 +67,14 @@
     "href": "projects.html#copy-the-masters",
     "title": "Projects",
     "section": "Copy the Masters",
-    "text": "Copy the Masters\nRecreation of a graphic made by fivethirtyeight.com illustrating that both chambers of congress are older than ever."
+    "text": "Copy the Masters\nR · ggplot2 · Visualization Tools\nA recreation of a FiveThirtyEight graphic using R and ggplot2."
   },
   {
     "objectID": "projects.html#microorganism-diversity-in-vineyard-soil",
     "href": "projects.html#microorganism-diversity-in-vineyard-soil",
     "title": "Projects",
-    "section": "",
-    "text": "My senior capstone project at Cal Poly SLO working as a client for Dr. Katie Watts under the supervision on Dr. Kelly Bodwin and Dr. Alex Dekhtyar. In this project, I worked to find drivers in microbial diversity in local vineyard soil by developing a new identification procedure that utilizes differential correlation."
+    "section": "Microorganism Diversity in Vineyard Soil",
+    "text": "Microorganism Diversity in Vineyard Soil\nUnsupervised Methods · R\nMy capstone project, working for client Dr. Katie Watts of the Cal Poly Chemistry department under the supervision of Dr. Kelly Bodwin and Dr. Alex Dekhtyar. I analyzed local vineyard soil to identify drivers of microbial diversity using differential correlation."
   },
   {
     "objectID": "projects.html#nba-genral-manager-hypothetical",
@@ -88,14 +88,14 @@
     "href": "projects.html#breast-cancer-detection",
     "title": "Projects",
     "section": "Breast Cancer Detection",
-    "text": "Breast Cancer Detection"
+    "text": "Breast Cancer Detection\nPython · sklearn\nClassification of Kaggle breast cancer data as malignant or benign using various classification methods including K-Nearest Neighbors, Support Vector Machine and Random Forest."
   },
   {
     "objectID": "projects.html#image-classification",
     "href": "projects.html#image-classification",
     "title": "Projects",
     "section": "Image Classification",
-    "text": "Image Classification"
+    "text": "Image Classification\nPython · sklearn"
   },
   {
     "objectID": "projects.html#microorganism-diversity-in-vineyard-soil451_midprogress_report.pdf",
@@ -103,5 +103,40 @@
     "title": "Projects",
     "section": "",
     "text": "My senior capstone project at Cal Poly SLO working as a client for Dr. Katie Watts under the supervision on Dr. Kelly Bodwin and Dr. Alex Dekhtyar. In this project, I worked to find drivers in microbial diversity in local vineyard soil by developing a new identification procedure that utilizes differential correlation."
+  },
+  {
+    "objectID": "projects.html#discovering-differentially-correlated-sets-across-multiple-treatments",
+    "href": "projects.html#discovering-differentially-correlated-sets-across-multiple-treatments",
+    "title": "Projects",
+    "section": "",
+    "text": "Statistical Methodology · Unsupervised Methods · R\nMy master’s thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons."
+  },
+  {
+    "objectID": "projects.html#nba-general-manager-hypothetical",
+    "href": "projects.html#nba-general-manager-hypothetical",
+    "title": "Projects",
+    "section": "NBA General Manager Hypothetical",
+    "text": "NBA General Manager Hypothetical\nScala · Spark\nUsing Scala and Spark, I analyzed NBA player data to make hypothetical off-season roster decisions in hindsight, as if I were a general manager. By examining team weaknesses and roster gaps heading into the next season, I evaluated which players would add the most value."
+  },
+  {
+    "objectID": "projects.html#plastic-waste",
+    "href": "projects.html#plastic-waste",
+    "title": "Projects",
+    "section": "Plastic Waste",
+    "text": "Plastic Waste\nR · Dashboard · Package Development\nAn end-to-end analysis of global plastic waste. The report pairs with an interactive dashboard and an R package bundling the data and reusable analysis functions."
+  },
+  {
+    "objectID": "projects.html#geolife-trajectories",
+    "href": "projects.html#geolife-trajectories",
+    "title": "Projects",
+    "section": "GeoLife Trajectories",
+    "text": "GeoLife Trajectories\nR · MCMC · K-means\nModeled GPS movement data as a Markov chain over spatial regions to determine long-run behavior of individuals in the region of interest. Instead of a typical grid split to define transitions as north, south, east and west, the region was split using k-means on uniquely visited locations and assigning points to the nearest centroid with Voronoi polygons."
+  },
+  {
+    "objectID": "projects.html#cockroach-neurons",
+    "href": "projects.html#cockroach-neurons",
+    "title": "Projects",
+    "section": "Cockroach Neurons",
+    "text": "Cockroach Neurons\nR · Poisson Processes\nModeled neural spike trains as non-homogeneous Poisson processes to test whether citronellal odor puffs change the firing rate of cockroach antennal lobe neurons."
   }
 ]

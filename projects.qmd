@@ -27,19 +27,15 @@ evaluated which players would add the most value.
 An end-to-end analysis of global plastic waste. The report pairs with an
 interactive [dashboard](https://019e34c7-e133-1234-79c1-e5ca7e2437b2.share.connect.posit.cloud/) and an [R package](https://github.com/tylerstoen/wasted) bundling the data and reusable analysis functions.
 
-
 ## [GeoLife Trajectories](projects/mp1.html)
 *R · MCMC · K-means*
 
 Modeled GPS movement data as a Markov chain over spatial regions to determine long-run behavior of individuals in the region of interest. Instead of a typical grid split to define transitions as north, south, east and west, the region was split using k-means on uniquely visited locations and assigning points to the nearest centroid with Voronoi polygons.
 
-
 ## [Cockroach Neurons](projects/cockroach_neurons-2.html)
 *R · Poisson Processes*
 
-Modeled neural spike trains as non-homogeneous Poisson processes to test whether citronellal odor puffs change the firing rate of cockroach antennal lobe
-neurons.
-
+Modeled neural spike trains as non-homogeneous Poisson processes to test whether citronellal odor puffs change the firing rate of cockroach antennal lobe neurons.
 
 ## [Breast Cancer Detection](https://github.com/tylerstoen/breast-cancer-classification)
 *Python · sklearn*
@@ -49,6 +45,7 @@ Classification of Kaggle breast cancer data as malignant or benign using various
 ## [Image Classification](projects/imageclassification.pdf)
 *Python · sklearn*
 
+A fun image classification project predicting a photo's photographer, one of two professors for a class. The project consisted of three stages: fitting a pretrained EfficientNet (transfer learning), hand-labeling images and using a standard scikit-learn classifier, and finally ensembling both into a final classifier.
 
 ## [Copy the Masters](projects/copythemasters.html)
 *R · ggplot2 · Visualization Tools*

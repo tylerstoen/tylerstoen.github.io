@@ -3,6 +3,8 @@ title: "Projects"
 resources: "*.pdf"
 ---
 
+***
+
 ## [Discovering Differentially Correlated Sets Across Multiple Treatments](https://digitalcommons.calpoly.edu/theses/3312/)
 *Statistical Methodology · Unsupervised Methods · R*
 

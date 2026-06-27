@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My professional expertise is in statistical models and machine learning, built on programming in R and Python. My recent work focuses on supervised and unsupervised methods, including classification and correlation analysis, with applications in biological areas like microbiome ecology and oncology.\nI came to statistics through sports. I was always the one thinking about the optimal way to play a game or the best lineup to field, and it became how I connected with people. That instinct for finding the optimal strategy and discovering the story through numbers is what motivates me in the field of statistics and data science today.\nOutside of work, I like to stay active, cook, follow Bay Area sports, and I’m always looking for new music."
+    "text": "My professional expertise is in statistical models and machine learning, built on programming in R and Python. My recent work focuses on supervised and unsupervised methods, including classification and correlation analysis, with applications in biological areas like microbiome ecology and oncology.\nI came to statistics through sports. I was always the one thinking about the optimal way to play a game or the best lineup to field, and it became how I connected with people. That instinct for finding the optimal strategy and discovering the story through numbers is what motivates me in statistics and data science today.\nOutside of work, I like to stay active, cook, follow Bay Area sports, and I’m always looking for new music."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tyler Stoen",
     "section": "",
-    "text": "Hello! My name is Tyler Stoen and I’m a recent MS Statistics graduate from Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub\n  \n  \n     LinkedIn"
+    "text": "Hi! My name is Tyler Stoen and I’m a recent MS Statistics graduate from Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub\n  \n  \n     LinkedIn"
   },
   {
     "objectID": "Resume.html",
@@ -95,7 +95,7 @@
     "href": "projects.html#image-classification",
     "title": "Projects",
     "section": "Image Classification",
-    "text": "Image Classification\nPython · sklearn"
+    "text": "Image Classification\nPython · sklearn\nA fun image classification project predicting a photo’s photographer, one of two professors for a class. The project consisted of three stages: fitting a pretrained EfficientNet (transfer learning), hand-labeling images and using a standard scikit-learn classifier, and finally ensembling both into a final classifier."
   },
   {
     "objectID": "projects.html#microorganism-diversity-in-vineyard-soil451_midprogress_report.pdf",
@@ -108,8 +108,8 @@
     "objectID": "projects.html#discovering-differentially-correlated-sets-across-multiple-treatments",
     "href": "projects.html#discovering-differentially-correlated-sets-across-multiple-treatments",
     "title": "Projects",
-    "section": "",
-    "text": "Statistical Methodology · Unsupervised Methods · R\nMy master’s thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons."
+    "section": "Discovering Differentially Correlated Sets Across Multiple Treatments",
+    "text": "Discovering Differentially Correlated Sets Across Multiple Treatments\nStatistical Methodology · Unsupervised Methods · R\nMy master’s thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons."
   },
   {
     "objectID": "projects.html#nba-general-manager-hypothetical",

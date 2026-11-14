@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My professional expertise is in statistical models and machine learning, built on programming in R and Python. My recent work focuses on supervised and unsupervised methods, including classification and correlation analysis, with applications in biological areas like microbiome ecology and oncology.\nI came to statistics through sports. I was always the one thinking about the optimal way to play a game or the best lineup to field, and it became how I connected with people. That instinct for finding the optimal strategy and discovering the story through numbers is what motivates me in statistics and data science today.\nOutside of work, I like to stay active, cook, follow Bay Area sports, and I’m always looking for new music."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tyler Stoen",
@@ -14,95 +7,11 @@
     "text": "Hi! My name is Tyler Stoen and I’m a recent MS Statistics graduate from Cal Poly San Luis Obispo.\n \n  \n   \n  \n     Email\n  \n  \n     GitHub\n  \n  \n     LinkedIn"
   },
   {
-    "objectID": "Resume.html",
-    "href": "Resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "&lt;div style=“display:flex; justify-content:center; align-items:center; height:100vh;”&gt;\n&lt;iframe src=“files/resume.pdf”\nstyle=“width:80%; height:90%; border:none;”\nframeborder=“0”&gt;\n&lt;/iframe&gt;\n&lt;/div&gt;"
-  },
-  {
-    "objectID": "about.html#involvement",
-    "href": "about.html#involvement",
-    "title": "About",
-    "section": "Involvement",
-    "text": "Involvement\nI currently involved in the swim club here at Cal Poly."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Statistical Methodology · Unsupervised Methods · R\nMy master’s thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons."
-  },
-  {
-    "objectID": "projects.html#effect-of-median-age-on-total-health-spending",
-    "href": "projects.html#effect-of-median-age-on-total-health-spending",
-    "title": "Projects",
-    "section": "Effect of Median Age on Total Health Spending",
-    "text": "Effect of Median Age on Total Health Spending\nIn this assignment, I worked with fellow classmates to determine if median age was associated with total health spending in countries across the world."
-  },
-  {
-    "objectID": "projects.html#reaction-time-project",
-    "href": "projects.html#reaction-time-project",
-    "title": "Projects",
-    "section": "Reaction Time Project",
-    "text": "Reaction Time Project\nA study designed to test if submerging your hand in different temperatures of water has an effect on your reaction time."
-  },
-  {
-    "objectID": "posts/copythemasters/copythemasters.html",
-    "href": "posts/copythemasters/copythemasters.html",
-    "title": "Copy the Masters",
-    "section": "",
-    "text": "age <- read.csv(\"C:/Users/Tyler/OneDrive/Desktop/Stat 365/data_aging_congress.csv\")\nhead(age)\n\n  congress start_date chamber state_abbrev party_code                 bioname\n1       82 1951-01-03   House           ND        200    AANDAHL, Fred George\n2       80 1947-01-03   House           VA        100 ABBITT, Watkins Moorman\n3       81 1949-01-03   House           VA        100 ABBITT, Watkins Moorman\n4       82 1951-01-03   House           VA        100 ABBITT, Watkins Moorman\n5       83 1953-01-03   House           VA        100 ABBITT, Watkins Moorman\n6       84 1955-01-03   House           VA        100 ABBITT, Watkins Moorman\n  bioguide_id   birthday cmltv_cong cmltv_chamber age_days age_years generation\n1     A000001 1897-04-09          1             1    19626  53.73306       Lost\n2     A000002 1908-05-21          1             1    14106  38.62012   Greatest\n3     A000002 1908-05-21          2             2    14837  40.62149   Greatest\n4     A000002 1908-05-21          3             3    15567  42.62012   Greatest\n5     A000002 1908-05-21          4             4    16298  44.62149   Greatest\n6     A000002 1908-05-21          5             5    17028  46.62012   Greatest\n\n\n\nClean Data\nGroup by Chamber\nGet average age for each start date\nPlot the average age over time of each chamber using ggplot\nChange the aesthetics to match the professional graph on fivethirtyeight\n\n\nage |>\n  group_by(chamber, start_date) |>\n  summarize(med_age = median(age_years)) |>\n  mutate(date = as.Date(start_date, \"%Y-%m-%d\"))|>\n  ggplot(mapping=aes(x = date, y = med_age)) +\n  geom_step(aes(color = fct_relevel(chamber, c(\"Senate\", \"House\"))),size=1) +\n  scale_x_date(breaks = c(mdy(\"01-01-1920\"), \n                          mdy(\"01-01-1930\"),\n                          mdy(\"01-01-1940\"), \n                          mdy(\"01-01-1950\"),\n                          mdy(\"01-01-1960\"),\n                          mdy(\"01-01-1970\"),\n                          mdy(\"01-01-1980\"),\n                          mdy(\"01-01-1990\"),\n                          mdy(\"01-01-2000\"),\n                          mdy(\"01-01-2010\"),\n                          mdy(\"01-01-2020\")), date_labels = \"%Y\") +\n  scale_color_manual(name = \"\", values = c(\"#6A4CD6\", \"#54AC54\")) +\n  labs(title = \"The House and Senate are older than ever before\", \n       subtitle = \"Median age of the U.S. Senate and U.S. House by Congress, 1919 to 2023\",\n       x = \"Data is based on all members who served in either the Senate or House in each Congress, which is notated by the year in \\nwhich it was seated. Any member who served in both chambers in the same Congress was assigned to the chamber in which \\nthey cast more votes.\",\n       y = \"\",\n       caption = \"SOURCES: BIOGRAPHICAL DIRECTORY OF THE U.S. CONGRESS, U.S. HOUSE OF REPRESENTATIVES, U.S. SENATE, UNITED STATES GITHUB, \\n VOTEVIEW.COM\") +\n  geom_text(aes(x = date, y = med_age, \n                color = fct_relevel(chamber, c(\"Senate\", \"House\"))), x = as.Date(\"2026-01-01\"), y = 64, label = \"65.3\", size = 3, show.legend = F) +\n  geom_text(aes(x = date, y = med_age, \n                color = fct_relevel(chamber, c(\"Senate\", \"House\"))), x = as.Date(\"2026-01-01\"), y = 57.8, label = \"57.8\", size = 3, show.legend = F) +\n  theme_fivethirtyeight() +\n  ylim(45, 65) +\n  theme(aspect.ratio = 0.3,legend.position = \"top\", legend.justification = \"left\", \n        plot.caption = element_text(size = 6),\n        axis.title.x = element_text(hjust = 0, size = 8),\n        panel.grid.major.x = element_blank())\n\n`summarise()` has grouped output by 'chamber'. You can override using the\n`.groups` argument.\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\nWarning: Removed 1 row containing missing values (`geom_step()`).\n\n\n\n\n\nThe graphic shows the median age of the Senate compared to the House of Representatives over time starting in 1919. The purpose of the graph is to showcase that the current median age of both chambers is the oldest it has ever been, as described in the title of the graph. The current median age in the Senate is about 65 while the median age in the House of Representatives is about 58. In the article posted on fivethirtyeight, it mentions that this may be a concern, as older politicians tend to be relatively unfamiliar with modern technology.\nIn my opinion, the graph does a good job showing that, in recent years, the median age of both chambers has been the oldest, at least in the range of the data. By quickly glancing at the graph, it is clear that the highest point in the graph is further to the right (more recent). Although I would likely not choose to use a step graph for this visualization, it works well as you are able to see which parts of the graph represent a new term. The addition of the label for the median age of the most recent year is also a nice touch to make it more clear how old the chambers have really become. Also, the graph does a good job citing sources and even includes what was done when a member served in both chambers. In my opinion, the text under the graph is a bit lengthy and including that elsewhere, such as in the article itself, may have been a better choice to reduce the amount of visual clutter in the graph. The y-axis label was also changed into a “subtitle” to make it easier to read. The titles is descriptive and gives the reader insight on what to expect in the graph."
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My academic interests include statistics and data science, specifically programming in R and Python.\nMy other interests include swimming, surfing, music and cooking. I am a big fan of both the Golden State Warriors and San Francisco 49ers and enjoy watching both sports with family and friends."
-  },
-  {
-    "objectID": "projects.html#copy-the-masters",
-    "href": "projects.html#copy-the-masters",
-    "title": "Projects",
-    "section": "Copy the Masters",
-    "text": "Copy the Masters\nR · ggplot2 · Visualization Tools\nA recreation of a FiveThirtyEight graphic using R and ggplot2."
-  },
-  {
-    "objectID": "projects.html#microorganism-diversity-in-vineyard-soil",
-    "href": "projects.html#microorganism-diversity-in-vineyard-soil",
-    "title": "Projects",
-    "section": "Microorganism Diversity in Vineyard Soil",
-    "text": "Microorganism Diversity in Vineyard Soil\nUnsupervised Methods · R\nMy capstone project, working for client Dr. Katie Watts of the Cal Poly Chemistry department under the supervision of Dr. Kelly Bodwin and Dr. Alex Dekhtyar. I analyzed local vineyard soil to identify drivers of microbial diversity using differential correlation."
-  },
-  {
-    "objectID": "projects.html#nba-genral-manager-hypothetical",
-    "href": "projects.html#nba-genral-manager-hypothetical",
-    "title": "Projects",
-    "section": "NBA Genral Manager Hypothetical",
-    "text": "NBA Genral Manager Hypothetical\nProject where I used Scala/Spark to analyze NBA data and make hypothetical off-season roster decisions in hindsight using data available on all NBA players as if I were a general manager. I looked to make informed decisions on what players would be most beneficial to the team by analyzing team weaknesses and potential holes going into the next season."
-  },
-  {
-    "objectID": "projects.html#breast-cancer-detection",
-    "href": "projects.html#breast-cancer-detection",
-    "title": "Projects",
-    "section": "Breast Cancer Detection",
-    "text": "Breast Cancer Detection\nPython · sklearn\nClassification of Kaggle breast cancer data as malignant or benign using various classification methods including K-Nearest Neighbors, Support Vector Machine and Random Forest."
-  },
-  {
-    "objectID": "projects.html#image-classification",
-    "href": "projects.html#image-classification",
-    "title": "Projects",
-    "section": "Image Classification",
-    "text": "Image Classification\nPython · sklearn\nA fun image classification project predicting a photo’s photographer, one of two professors for a class. The project consisted of three stages: fitting a pretrained EfficientNet (transfer learning), hand-labeling images and using a standard scikit-learn classifier, and finally ensembling both into a final classifier."
-  },
-  {
-    "objectID": "projects.html#microorganism-diversity-in-vineyard-soil451_midprogress_report.pdf",
-    "href": "projects.html#microorganism-diversity-in-vineyard-soil451_midprogress_report.pdf",
-    "title": "Projects",
-    "section": "",
-    "text": "My senior capstone project at Cal Poly SLO working as a client for Dr. Katie Watts under the supervision on Dr. Kelly Bodwin and Dr. Alex Dekhtyar. In this project, I worked to find drivers in microbial diversity in local vineyard soil by developing a new identification procedure that utilizes differential correlation."
+    "text": "My professional expertise is in statistical models and machine learning, built on programming in R and Python. My recent work focuses on supervised and unsupervised methods, including classification and correlation analysis, with applications in biological areas like microbiome ecology and oncology.\nI came to statistics through sports. I was always the one thinking about the optimal way to play a game or the best lineup to field, and it became how I connected with people. That instinct for finding the optimal strategy and discovering the story through numbers is what motivates me in statistics and data science today.\nOutside of work, I like to stay active, cook, follow Bay Area sports, and I’m always looking for new music."
   },
   {
     "objectID": "projects.html#discovering-differentially-correlated-sets-across-multiple-treatments",
@@ -110,6 +19,13 @@
     "title": "Projects",
     "section": "Discovering Differentially Correlated Sets Across Multiple Treatments",
     "text": "Discovering Differentially Correlated Sets Across Multiple Treatments\nStatistical Methodology · Unsupervised Methods · R\nMy master’s thesis, introducing a new Variable Set Affinity Testing (VSAT) method for more than three treatments. My contribution generalizes the existing method of Differential Correlation Mining to three or more treatment conditions identifying sets of variables whose correlation structure differs across multiple conditions. The full thesis is available on Cal Poly Digital Commons."
+  },
+  {
+    "objectID": "projects.html#microorganism-diversity-in-vineyard-soil",
+    "href": "projects.html#microorganism-diversity-in-vineyard-soil",
+    "title": "Projects",
+    "section": "Microorganism Diversity in Vineyard Soil",
+    "text": "Microorganism Diversity in Vineyard Soil\nUnsupervised Methods · R\nMy capstone project, working for client Dr. Katie Watts of the Cal Poly Chemistry department under the supervision of Dr. Kelly Bodwin and Dr. Alex Dekhtyar. I analyzed local vineyard soil to identify drivers of microbial diversity using differential correlation."
   },
   {
     "objectID": "projects.html#nba-general-manager-hypothetical",
@@ -138,5 +54,26 @@
     "title": "Projects",
     "section": "Cockroach Neurons",
     "text": "Cockroach Neurons\nR · Poisson Processes\nModeled neural spike trains as non-homogeneous Poisson processes to test whether citronellal odor puffs change the firing rate of cockroach antennal lobe neurons."
+  },
+  {
+    "objectID": "projects.html#breast-cancer-detection",
+    "href": "projects.html#breast-cancer-detection",
+    "title": "Projects",
+    "section": "Breast Cancer Detection",
+    "text": "Breast Cancer Detection\nPython · sklearn\nClassification of Kaggle breast cancer data as malignant or benign using various classification methods including K-Nearest Neighbors, Support Vector Machine and Random Forest."
+  },
+  {
+    "objectID": "projects.html#image-classification",
+    "href": "projects.html#image-classification",
+    "title": "Projects",
+    "section": "Image Classification",
+    "text": "Image Classification\nPython · sklearn\nA fun image classification project predicting a photo’s photographer, one of two professors for a class. The project consisted of three stages: fitting a pretrained EfficientNet (transfer learning), hand-labeling images and using a standard scikit-learn classifier, and finally ensembling both into a final classifier."
+  },
+  {
+    "objectID": "projects.html#copy-the-masters",
+    "href": "projects.html#copy-the-masters",
+    "title": "Projects",
+    "section": "Copy the Masters",
+    "text": "Copy the Masters\nR · ggplot2 · Visualization Tools\nA recreation of a FiveThirtyEight graphic using R and ggplot2."
   }
 ]
